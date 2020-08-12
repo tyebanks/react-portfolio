@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 8vmin;
   pointer-events: none;
 }
 
@@ -11,21 +11,58 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+} 
+.about-Container {
+  max-width: 100vw;
+  display: flex;
+  justify-content: center;
+ 
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.about-Text {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-self: center;
+}
+.myImg {
+  max-width: 185px;
+  max-height: 185px;
+  width: 100%;
+}
+.cvButton{
+  height: 15vh;
+  border: 1px solid red;
+}
+.socialIcons {
+border: 1px solid black;
+height: 10vh;
+/* width: 20vw; */
+}
+.Top-header {
+  background: url('./imgs/triangles.png'), linear-gradient(180deg, rgba(0, 239, 181, 0.87) 0%,#6723C6 100%);
+  min-height: 100vh;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
+.Skills-Container {
+  min-height: 100vh;
+  min-width: 100%;
+  background-size: cover;
+  background: url('./imgs/bg-01.jpg');
+  background-position: center;
+  background-repeat: no-repeat; 
+}
+
 .App-link {
   color: #61dafb;
+}
+.navbar {
+  background-color: #6723C6;
+  height: 4.0625rem;
+}
+.mainImage{
+  display: flex;
+  justify-content: center;
 }
 
 @keyframes App-logo-spin {
