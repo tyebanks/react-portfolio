@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Landing from './sections/App';
 import Skills from './sections/Skills';
+import Projects from './sections/Projects';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
     <Landing />
     <Skills/>
+    <Projects/>
   </React.StrictMode>,
   document.getElementById('root')
 );

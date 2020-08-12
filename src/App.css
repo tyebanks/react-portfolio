@@ -1,3 +1,36 @@
+/* Table of Contents */
+/* 1. Container Styling for the 5 Sections of Index Page */
+
+
+/* Section 1: Landing */
+.Top-header {
+  background: url('./imgs/triangles.png'), linear-gradient(180deg, rgba(0, 239, 181, 0.87) 0%,#6723C6 100%);
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* Section 2: Technical Skills */
+.Skills-Container {
+  min-height: 100vh;
+  min-width: 100%;
+  background-size: cover;
+  background: url('./imgs/bg-1.jpg');
+  background-position: center;
+  background-repeat: no-repeat; 
+}
+
+/* Section 3: Projects */
+.Projects-Container {
+  min-height: 100vh;
+  background: url('./imgs/bg-3.jpg');
+  min-width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
 .App {
   text-align: center;
 }
@@ -36,21 +69,6 @@
 border: 1px solid black;
 height: 10vh;
 /* width: 20vw; */
-}
-.Top-header {
-  background: url('./imgs/triangles.png'), linear-gradient(180deg, rgba(0, 239, 181, 0.87) 0%,#6723C6 100%);
-  min-height: 100vh;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.Skills-Container {
-  min-height: 100vh;
-  min-width: 100%;
-  background-size: cover;
-  background: url('./imgs/bg-1.jpg');
-  background-position: center;
-  background-repeat: no-repeat; 
 }
 
 .App-link {
