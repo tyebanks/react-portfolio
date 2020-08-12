@@ -48,7 +48,7 @@ height: 10vh;
   min-height: 100vh;
   min-width: 100%;
   background-size: cover;
-  background: url('./imgs/bg-01.jpg');
+  background: url('./imgs/bg-1.jpg');
   background-position: center;
   background-repeat: no-repeat; 
 }
