@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import NavBar from './NavBar.js';
-import MainImage from '../components/MainImage.js';
-import About from '../components/About.js'
-import Button from '../components/Button.js'
-import Social from '../components/Social';
+import MainImage from './MainImage.js';
+import About from './About.js'
+import Button from './Button.js'
+import Social from './Social';
 
 
-class Header extends Component {
+class TopPage extends Component {
     render() {   
       return (
         <div className="Top-header">
@@ -19,5 +19,5 @@ class Header extends Component {
       );
     }
 }
-export default Header;
+export default TopPage;
  
