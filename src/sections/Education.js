@@ -12,8 +12,8 @@ class Education extends Component {
                <div className="columns is-centered mt-6 py-5">
                <h1 className="has-text-centered title is-1">{heading}</h1></div>
               <div className="columns is-centered">              
-                <List classes="edu-bg1" title="BSc Business Computing (Web Design)" image={<img src={Uon} alt="uon logo"/>} text1="University of Northampton" text2="Waterside Campus" text3="Northampton, U.K."/>
-                <List classes="edu-bg2" title="Associate Degree in Computer Science" image={<img src={Ucci} alt="ucci logo"/>}text1="University of the Cayman Islands" text2="Olympic Way, George Town" text3="Grand Cayman, C.I."/>
+                <List img={Uon} alt="uon logo" title="BSc Business Computing (Web Design)" text1="University of Northampton" text2="Waterside Campus" text3="Northampton, U.K."/>
+                <List img={Ucci} alt="ucci logo" title="Associate Degree in Computer Science" text1="University of the Cayman Islands" text2="Olympic Way, George Town" text3="Grand Cayman, C.I."/>
               </div>        
             </div>
         )
