@@ -42,7 +42,7 @@
 .Contact-Container {
   min-height: 100vh;
   background: #4A494A;
-  width:100%;
+  min-width:100%;
 }
 
 
