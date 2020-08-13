@@ -45,6 +45,11 @@
   min-width:100%;
 }
 
+/* Styling Elements on Projects Page */
+.project-img{
+  width: 240px;
+  height: 171px;
+}
 
 
 .App {
