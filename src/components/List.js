@@ -3,9 +3,9 @@ import React from 'react';
 const List = (props) => {
     return (
         <div>
-           <div class="column mx-5 mb-5 card">
-                 <header className="card-header mb-3">
-                       <h2 className="card-header-title">{props.title}</h2>
+           <div class="card column mx-6 mb-5 ">
+                 <header className="px-5 pt-5">
+                       <h2 className="title is-6">{props.title}</h2>
                  </header> 
                  {/* <div className={props.classes}></div>                    */}
                  <div className="card-content">

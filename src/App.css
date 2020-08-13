@@ -66,10 +66,10 @@
 
 /* 1. Sets Education Container*/
 .Education-Container {
-  min-height: 100vh;
-  min-width: 100%;
- 
+  min-height: 110vh;
+  padding: 0 0 8%;
 }
+
 /* .edu-bg1{
   background: url('./imgs/uon-logo.jpg');
 } 
