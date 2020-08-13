@@ -20,11 +20,7 @@
   background-repeat: no-repeat; 
 }
 
-/* Section 3: Projects */
-/* .Projects-Container {
-  min-height: 100vh;
-  min-width: 100%;
-} */
+
 
 /* Section 4: Education */
 .Education-Container {
@@ -37,21 +33,36 @@
 /* Section 5: Contact */
 .Contact-Container {
   min-height: 100vh;
-  /* background: #4A494A; */
   min-width:100%;
 }
+/* ------------------------------------------------------- */
+/*        Section 3: Projects Page (Styling Elements)      */
+/* ------------------------------------------------------- */
 
-/* Section 3: Projects Page (Styling Elements) */
+ /* 1. Sets Projects Container height*/
+.Projects-Container {
+   min-height: 110vh;
+   padding-bottom: 8%;
+} 
+/* 2. Card Width- Sets the size Projects Card Component */
+.card_width {
+  width: 400px;
+}
+/* 3. Card Title- Sets the Color of H2 Card Component */
+.card_title{
+  color: #5B089B;
+  font-weight: 600;
+  font-size: 24px;
+}
+/* 4. Project Image- Adds animation to Card Component */
 .project_image:hover {
   opacity: 1;
   transform: scale(1.10);
   transition: 0.3s ease-in-out;
   text-transform: none;
 }
-.column{
-  width: 400px;
-}
 
+/*----------------End of Section 3 --------------------- */
 
 .App {
   text-align: center;
