@@ -68,9 +68,20 @@
 .Education-Container {
   min-height: 100vh;
   min-width: 100%;
+ 
+}
+/* .edu-bg1{
+  background: url('./imgs/uon-logo.jpg');
+} 
+.edu-bg2{
+  background: url('./imgs/ucci-logo.jpg');
+}
+.edu-bg1, .edu-bg2{
   background-size: cover;
   background-position: center;
-}
+  background-repeat: no-repeat; 
+  height: 240px;  
+} */
 
 
 
