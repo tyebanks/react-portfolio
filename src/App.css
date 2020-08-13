@@ -23,7 +23,7 @@
 /* Section 3: Projects */
 .Projects-Container {
   min-height: 100vh;
-  background: url('./imgs/bg-3.jpg');
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), url('./imgs/bg-3.jpg');
   min-width: 100%;
   background-size: cover;
   background-position: center;
