@@ -8,29 +8,12 @@ import project3 from '../imgs/project3.jpg';
 class Projects extends Component {
  render() {
         return (
-        <div>
-            <Project heading="My Projects"/>
-            <Project title="Outlandish Cayman"/>
-            <figure className="project-img"> 
-                <img src={project1} alt="outlandish-project"/>
-            </figure>
-            <Project subtitle="GatsbyJS + Bootstrap"/>
-            
-
-            <Project title= "Hero Game"/>
-            <figure className="project-img">
-                <img src={project2} alt="hero-game" />
-            </figure>
-            <Project subtitle="JavaScript"/>
-            
-
-            <Project title= "Web Developer News"/> 
-            <figure className="project-img">
-                <img src={project3} alt="news-site"/>
-            </figure>
-            <Project subtitle="HTML5 + CSS3"/>
-           
-        </div>)
+            <div>
+                <Project heading="My Projects" title="Outlandish Cayman" image={<img src={project1} alt="outlandish-project"/>} subtitle="GatsbyJS + Bootstrap"/>
+                <Project title= "Hero Game" subtitle="JavaScript"  image={<img src={project2} alt="hero-game" />}/>  
+                <Project title= "Web Developer News" subtitle="HTML5 + CSS3" image={<img src={project3} alt="news-site" />}/>         
+            </div>
+        )
  }
 }
 export default Projects;
