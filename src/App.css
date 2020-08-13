@@ -79,10 +79,10 @@
 }
 .cvButton{
   height: 15vh;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .socialIcons {
-border: 1px solid black;
+/* border: 1px solid black; */
 height: 10vh;
 /* width: 20vw; */
 }
