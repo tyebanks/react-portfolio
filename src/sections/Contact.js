@@ -5,7 +5,7 @@ import '../App.css';
 
 function Contact() {
   return (
-    <div className="container Contact-Container">
+    <div className="hero is-dark is-bold Contact-Container">
 
     <div className="is-bold">
         <p>This is Contact Page</p>

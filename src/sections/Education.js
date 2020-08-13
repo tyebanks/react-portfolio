@@ -5,7 +5,7 @@ import '../App.css';
 
 function Education() {
   return (
-    <div className="container Education-Container">
+    <div className="hero is-light is-bold Education-Container">
 
     <div className="is-bold">
         <p>This is Education Page</p>
