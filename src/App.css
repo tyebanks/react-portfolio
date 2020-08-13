@@ -23,11 +23,11 @@
 /* 1. Sets Technical Skills Container*/
 .Skills-Container {
   min-height: 110vh;
+  min-width: 100%;
+  border: 1px solid black;
   padding: 0 0 8%;
-  background-size: cover;
-  background: url('./imgs/bg-1.jpg');
-  background-position: center;
-  background-repeat: no-repeat; 
+  background: linear-gradient(#5B089B 0%,#e0e5ec 100%);
+  opacity: .80;
 }
 
 
