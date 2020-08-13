@@ -4,6 +4,8 @@ import './index.css';
 import Landing from './sections/App';
 import Skills from './sections/Skills';
 import Projects from './sections/Projects';
+import Education from './sections/Education';
+import Contact from './sections/Contact';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
@@ -11,6 +13,8 @@ ReactDOM.render(
     <Landing />
     <Skills/>
     <Projects/>
+    <Education/>
+    <Contact/>
   </React.StrictMode>,
   document.getElementById('root')
 );

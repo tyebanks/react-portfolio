@@ -29,6 +29,22 @@
   background-position: center;
 }
 
+/* Section 4: Education */
+.Education-Container {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), url('./imgs/bg-3.jpg');
+  min-width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Section 5: Contact */
+.Contact-Container {
+  min-height: 100vh;
+  background: #4A494A;
+  width:100%;
+}
+
 
 
 .App {
