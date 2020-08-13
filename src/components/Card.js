@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Project = (props) => {
+const Card = (props) => {
     return (
         <div>
            <div class="column mx-5 mb-5 card_width">
@@ -25,4 +25,4 @@ const Project = (props) => {
         </div>
     )
 }
-export default Project;
+export default Card;
