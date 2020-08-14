@@ -5,7 +5,7 @@ class NavBar extends Component {
   render() {   
       return (
 
-        <nav class="navbar is-fixed-top level navbar has-shadow mb-6" role="navigation" aria-label="main navigation">
+        <nav class="navbar is-hidden-tablet is-fixed-top level navbar has-shadow mb-6" role="navigation" aria-label="main navigation">
   
         <div class="level-left">
             <div class="level-item">

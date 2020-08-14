@@ -4,9 +4,8 @@ const List = (props) => {
     return (
         <div>
            <div class="column mx-6 mb-5 ">
-                 <header className="px-5 pt-5">
-                       <h2 className="title is-6">{props.title}</h2>
-                 </header>
+                 <h2 className="title is-3">{props.title}</h2>
+                 
                   <p className="">{props.text1}</p>
                   <p className="">{props.text2}</p>
                   <p className="">{props.text3}</p>
