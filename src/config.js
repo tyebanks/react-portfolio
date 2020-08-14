@@ -4,7 +4,7 @@ module.exports = {
   
     contacts: [
         {
-            heading: 'Give me a shout',    
+            heading: 'Leave me a message',    
         },
         {
             text: 'Email ',
