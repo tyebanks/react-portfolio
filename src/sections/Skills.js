@@ -14,7 +14,7 @@ class Skills extends Component {
             <div id="skills" className="level-item is-mobile is-full-mobile title is-size-2-mobile is-size-1-tablet">
                 {heading}
             </div>       
-            <div className="custom-subheading is-size-5-mobile pl-6 column is-three-fifths-mobile"> 
+            <div className="custom-subheading is-size-5-mobile pl-6 column is-half-mobile"> 
                  {subheading}
             </div>   
             <div className="level-item">              
