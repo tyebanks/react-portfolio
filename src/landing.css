@@ -16,12 +16,11 @@
 
 
 #landing-container{
-    margin: 0;  padding: 4.0625rem 0 0;
+    margin: 0;  padding: 0;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 10px;   
     grid-template-areas:
-    ". . . . . . . . . . . ."
     ". . . . . img img . . . . ."
     ". . mn mn mn mn mn mn mn mn . ."
     ". . . . btn btn btn btn . . . ."
@@ -221,15 +220,14 @@
   /* min 300pxs */
   .landing-container{
   grid-template-areas:
-  ". . . . . . . . . . . ."
   ". . . . img img img img . . . ."
   "mn mn mn mn mn mn mn mn mn mn mn mn"
   ". . . btn btn btn btn btn btn . . ."
   ". . . . ft ft ft ft . . . .";
   }
-    main{
+  main{
       padding: 0 8% 0 8%;
-    }
+  }
  .aboutme{
       text-align: justify;
       letter-spacing: -0.04em;
