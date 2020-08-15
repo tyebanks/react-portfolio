@@ -10,7 +10,7 @@ class Skills extends Component {
         // // Skills-Container   <-- old classname
         <div className="section hero is-light"> 
         <div className="container is-fluid">
-        <div className= "columns has-text-left-touch">
+        <div className= "columns is-centered has-text-left-touch">
             <div id="skills" className="title is-size-2-mobile is-size-1-tablet">
                 {heading}
             </div>       

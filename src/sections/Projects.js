@@ -7,7 +7,7 @@ import project3 from '../imgs/project3.jpg';
 
 class Projects extends Component {
  render() {
- let heading =  "My Projects";
+ let heading =  "MY PROJECTS";
         return (
             <div className="hero is-light is-bold Projects-Container">
                <div className="columns is-centered mt-6 py-5">
