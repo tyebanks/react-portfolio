@@ -16,6 +16,9 @@ nav {
   color: #5B089B;
   font-weight: bold;
 }
+#{
+  font-weight: bold;
+}
 #root{
   width: 100vw;
 }
