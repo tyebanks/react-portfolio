@@ -9,7 +9,7 @@ class NavBar extends Component {
   
         <div class="level-left">
             <div class="level-item">
-                <p class="subtitle is-5"><img src={logo} className="" alt="logo"/> </p>
+                <p class="image is-64x64"><img src={logo} className="" alt="logo"/> </p>
             </div>
             <div class="level-right">
                 <p class="level-item">menu</p>
