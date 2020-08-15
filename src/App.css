@@ -25,7 +25,7 @@ body{
 /* 1. Sets Technical Skills Container*/
 .Skills-Container {
   min-height: 110vh;
-  min-width: 100%;
+  min-width: 100vw;
   padding: 0 0 8%;
 }
 
@@ -86,7 +86,7 @@ body{
 /* 1. Sets Contact Container*/
 .Contact-Container {
   min-height: 85vh;
-  min-width:100%;
+  min-width: 100vw;
 }
 
 /*----------------End of Section 5 --------------------- */
