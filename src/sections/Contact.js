@@ -10,7 +10,7 @@ function Contact() {
       {config.contacts.map(contact => {const {heading, text, url,mail, } = contact;
          return (
             <div className="columns is-mobile is-centered">
-               <div className="column my-3">
+               <div className="column py-3">
                  <div id="contact" className="has-text-centered-touch has-text-centered-desktop">
                    <h2 className="is-size-1" style={{color: "#B19EFF"}}>{heading}</h2>
                    <h3 className="is-size-3">{text}</h3>

@@ -5,17 +5,14 @@
 /* ------------------------------------------------------- */
 /* Section 1: Landing Page (Styling Elements)     */
 /* ------------------------------------------------------- */
-body{
-  padding-top: 4.0625rem;
-  width: 100vw;
-}
+
 /* 1. Sets Landing Container*/
 .Top-header {
-  background: url('./imgs/triangles.png'), linear-gradient(180deg, rgba(0, 239, 181, 0.87) 0%,#6723C6 100%);
+  /* background: url('./imgs/triangles.png'), linear-gradient(180deg, rgba(0, 239, 181, 0.87) 0%,#6723C6 100%);
   background-size:100%; width:100%; height:100%;
   min-height: 100vh;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: white; */
 }
 /*----------------End of Section 1 --------------------- */
 
@@ -27,8 +24,8 @@ body{
 /* 1. Sets Technical Skills Container*/
 .Skills-Container {
   min-height: 110vh;
-  min-width: 100vw;
-  padding: 0 0 8%;
+  /* width: 100vw;
+  padding: 0 0 8%; */
 }
 
 
@@ -42,25 +39,25 @@ body{
 
  /* 1. Sets Projects Container height*/
 .Projects-Container {
-   min-height: 110vh;
-   padding-bottom: 8%;
+   /* min-height: 110vh;
+   padding-bottom: 8%; */
 } 
 /* 2. Card Width- Sets the size Projects Card Component */
 .card_width {
-  width: 400px;
+  /* width: 400px; */
 }
 /* 3. Card Title- Sets the Color of H2 Card Component */
 .card_title{
-  color: #5B089B;
+  /* color: #5B089B;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 24px; */
 }
 /* 4. Project Image- Adds animation to Card Component */
 .project_image:hover {
-  opacity: 1;
+  /* opacity: 1;
   transform: scale(1.10);
   transition: 0.3s ease-in-out;
-  text-transform: none;
+  text-transform: none; */
 }
 
 /*----------------End of Section 3 --------------------- */
@@ -73,8 +70,8 @@ body{
 
 /* 1. Sets Education Container*/
 .Education-Container {
-  min-height: 85vh;
-  padding: 0 0 8%;
+  /* min-height: 85vh;
+  padding: 0 0 8%; */
 }
 
 /*----------------End of Section 4 --------------------- */
@@ -87,8 +84,8 @@ body{
 
 /* 1. Sets Contact Container*/
 .Contact-Container {
-  min-height: 85vh;
-  min-width: 100vw;
+  /* min-height: 85vh;
+  min-width: 100vw; */
 }
 
 /*----------------End of Section 5 --------------------- */
@@ -97,15 +94,14 @@ body{
 /*     Additional Styling for Components                   */
 /* ------------------------------------------------------- */
 .about-Container {
-  min-width: 100vw;
+  /* min-width: 100vw;
   display: flex;
-  justify-content: center;
- 
+  justify-content: center; */
 }
 .about-Text {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  align-self: center;
+  align-self: center; */
 }
 .myImg {
   max-width: 185px;
@@ -113,22 +109,17 @@ body{
   width: 100%;
 }
 .cvButton{
-  height: 15vh;
+  /* height: 15vh; */
 }
 /* .socialIcons {
 border: 1px solid black;
 height: 10vh;
 } */
 
-.navbar {
-  background-color: #6723C6;
-  height: 4.0625rem;
-  min-width: 100vw;
-  overflow-x: hidden;
-}
+
 .mainImage{
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
 }
 
 /*---------------End of Component Styling---------------- */
@@ -138,19 +129,19 @@ height: 10vh;
 /*             Styling for App.js Page                     */
 /* ------------------------------------------------------- */
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 .App-logo {
-  height: 8vmin;
-  pointer-events: none;
+  /* height: 8vmin;
+  pointer-events: none; */
 }
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  /* .App-logo {
     animation: App-logo-spin infinite 20s linear;
-  }
+  } */
 } 
 .App-link {
-  color: #61dafb;
+  /* color: #61dafb; */
 }
  @keyframes App-logo-spin {
   from {
