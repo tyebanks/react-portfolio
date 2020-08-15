@@ -11,7 +11,7 @@ class Skills extends Component {
         <div className="section hero is-light"> 
         <div className="container">
         <div className= "columns is-centered-mobile has-text-left-touch">
-            <div id="skills" className="has-text-centered-mobile title is-size-2-mobile is-size-1-tablet">
+            <div id="skills" className="has-text-centered-mobile title is-size-3-mobile is-size-1-tablet">
                 {heading}
             </div>       
             <div className="custom-subheading is-size-5-mobile column is-full-mobile"> 
