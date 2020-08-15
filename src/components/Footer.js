@@ -9,7 +9,7 @@ class Footer extends Component {
                  <div class="content has-text-centered">
                      <Contact/>
                  </div>
-          </footer>
+           </footer>
          )
   
         }
