@@ -4,7 +4,7 @@ const List = (props) => {
     return (
         <div>
            <div className="column px-6">
-                 {/* <p className="is-one-quarter">{props.title}</p> */}
+               
                   <p>{props.text1}</p>
                   <p>{props.text2}</p>
                   <p>{props.text3}</p>
