@@ -7,10 +7,11 @@ class Skills extends Component {
  let heading =  "Technical Skills";
     return (
         <div className="hero is-light is-bold Skills-Container">
+        <div className= "has-text-centered-touch">
             <div className="columns is-centered mt-6 py-5">
                 <h1 id="skills" className="has-text-centered title is-1">{heading}</h1>
             </div>                  
-            <header className="is-mobile is-table is-desktop">     
+            <header className="is-mobile is-tablet">     
             <div className="has-text-centered"><List title="Web Programming, Design & Collaborative Tools"/></div>
             <div className="level-item has-text-centered">
            
@@ -19,6 +20,7 @@ class Skills extends Component {
                 <List text1="Adobe Illustrator" text2="Adobe PhotoShop" text3="Figma" text4="inVision" text5="Discord" text6="Slack"/>
             </div>
             </header>
+        </div>
     </div>
   );
     }
