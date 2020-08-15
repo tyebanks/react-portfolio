@@ -14,15 +14,15 @@ class Skills extends Component {
             <div id="skills" className="has-text-centered-mobile title is-size-3-mobile is-size-1-tablet">
                 {heading}
             </div>       
-            <div className="custom-subheading is-size-5-mobile column is-four-fifths-mobile"> 
-                 {subheading}
+            <div className="column is-four-fifths-mobile"> 
+                <p className="custom-subheading  is-size-5-mobile">{subheading}</p>
+                 <div className="level-item py-4">           
+                     <List text1="HTML5" text2="CSS3" text3="JavaScript" text4="PHP" text5="ReactJS" text6="Gatsby" text7="WordPress" text8="Joomla"/>
+                     <List text1="Java/Eclipse" text2="Atom" text3="VS Code" text4="GitHub" text5="Figma" text6="inVision" text7="Discord" text8="Slack"/>
+                 </div> 
             </div>   
             <div className="level is-mobile">              
-                  <div className="level-item">           
-                     <List text1="HTML5" text2="CSS3" text3="JavaScript" text4="PHP" text5="ReactJS" text6="GatsbyJS"/>
-                     <List text1="Java/Eclipse" text2="WordPress" text3="Joomla" text4="GitHub" text5="Atom" text6="VS Code"/>
-                     {/* <List text1="Adobe Illustrator" text2="Adobe PhotoShop" text3="Figma" text4="inVision" text5="Discord" text6="Slack"/> */}
-            </div>
+                  
             </div>
         </div>
         </div>
