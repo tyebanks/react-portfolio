@@ -12,6 +12,10 @@ nav {
   width: 100vw;
   overflow-x: hidden;
 }
+.custom-subheading{
+  color: #5B089B;
+  font-weight: bold;
+}
 #root{
   width: 100vw;
 }
