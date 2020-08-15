@@ -5,7 +5,7 @@ import '../App.css';
 
 function Contact() {
   return ( 
-    <div className="hero is-dark is-bold Contact-Container columns is-vcentered">
+    <div className="Contact-Container columns is-vcentered">
       <div className="column pt-6">
       {config.contacts.map(contact => {const {heading, text, url,mail, } = contact;
          return (

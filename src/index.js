@@ -5,7 +5,7 @@ import Landing from './sections/App';
 import Skills from './sections/Skills';
 import Projects from './sections/Projects';
 import Education from './sections/Education';
-import Contact from './sections/Contact';
+import Footer from './components/Footer';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
@@ -14,7 +14,7 @@ ReactDOM.render(
     <Skills/>
     <Projects/>
     <Education/>
-    <Contact/>
+    <Footer/>
   </React.StrictMode>,
   document.getElementById('root')
 );
