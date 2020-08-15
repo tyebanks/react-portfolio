@@ -1,13 +1,16 @@
-import React from 'react';
-import config from '../config.js';
+import React, { Component } from 'react';
+// import '../landing.css';
 
-export default function Social() {
-  return (
-     <div className="size-is-1 px-2">{config.socialLinks.map(social => {const {icon, url } = social;
-        return (
-             <a href={url} key={url}><i className={`fab ${icon}`}></i></a>
-        );})
-       }
-    </div>
+class Social extends Component {
+  render() {   
+      return (
+          <div className="ft">
+              <a href="https://www.linkedin.com/in/ty-ebanks/"><i className="fab fa-linkedin fa-3x icons hvr-wobble-skew "></i></a>
+              <a href="https://github.com/tyebanks/tyebanks.github.io"><i className="fab fa-github fa-3x icons hvr-wobble-skew "></i></a>
+              <a href="https://twitter.com/ty_ebanks"><i className="fab fa-twitter fa-3x icons hvr-wobble-skew "></i></a>
+            {/* class="icons hvr-wobble-skew  */}
+          </div>
   );
 }
+}
+export default Social;

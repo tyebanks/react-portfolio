@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|M+PLUS+Rounded+1c:800&display=swap');
+
+
+ /*Code from https://css-tricks.com/perfect-full-page-background-image/ to fix background to cover entire space*/
+ #landing-container{
+    background: url(imgs/triangles.png)  center center fixed, linear-gradient(0deg, #6723C6 0%, rgba(0, 239, 181, 0.87) 100%);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    padding-bottom: 10%;
+}
+
+
+#landing-container{
+    margin: 0;  padding: 4.0625rem 0 0;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 10px;   
+    grid-template-areas:
+    ". . . . . . . . . . . ."
+    ". . . . . img img . . . . ."
+    ". . mn mn mn mn mn mn mn mn . ."
+    ". . . . btn btn btn btn . . . ."
+    ". . . . ft ft ft ft . . . .";
+}
+ 
+.img{grid-area: img;}  main{grid-area: mn;} #button{grid-area: btn;} .ft{grid-area: ft;}
+.img{ border: 2px solid black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      width: 200px;
+      height: 200px;
+}
+.myImg{ border: 2px solid black; border-radius: 100%; width: 180px; height: 185px;}
+#button{ display: flex; justify-content: center;}
+.icons{  margin: 0.438em; font-size: 2rem; color: #00EFB5; }
+.ft{ padding: 10% 0 10%;  display: flex; align-items: flex-start; justify-content: center;}
+  
+  /*---------------------------------------------------------------------------------------*/
+  /*Code for float shadow effect*/
+  
+  /*glow button css */
+  button::before {
+    background: #9DFFE4;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+  }
+  
+  button:hover::before {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #9DFFE4;
+  }
+  
+  button:hover {
+    color: #B19EFF;
+  }
+  /*----------------------------*/
+  .icons{
+    opacity: 0.45;
+  }
+  .icons:hover {
+    opacity: 1;
+  }
+  .myImg:hover {
+    opacity: 0.6;
+    box-shadow: 0 0 5px #00EFB5;
+    text-shadow: 0 0 5px #00EFB5;
+  }
+  
+  /*-----------------------------------------*/
+  /* Animations for buttons and images */
+  
+  /* Code used for animations from Github Repo https://github.com/IanLunn/Hover/blob/master/css/hover.css Author: Ian Lunn @IanLunn*/
+  
+  /* Wobble Skew */
+  @-webkit-keyframes hvr-wobble-skew {
+    16.65% {
+      -webkit-transform: skew(-12deg);
+      transform: skew(-12deg);
+    }
+    33.3% {
+      -webkit-transform: skew(10deg);
+      transform: skew(10deg);
+    }
+    49.95% {
+      -webkit-transform: skew(-6deg);
+      transform: skew(-6deg);
+    }
+    66.6% {
+      -webkit-transform: skew(4deg);
+      transform: skew(4deg);
+    }
+    83.25% {
+      -webkit-transform: skew(-2deg);
+      transform: skew(-2deg);
+    }
+    100% {
+      -webkit-transform: skew(0);
+      transform: skew(0);
+    }
+  }
+  @keyframes hvr-wobble-skew {
+    16.65% {
+      -webkit-transform: skew(-12deg);
+      transform: skew(-12deg);
+    }
+    33.3% {
+      -webkit-transform: skew(10deg);
+      transform: skew(10deg);
+    }
+    49.95% {
+      -webkit-transform: skew(-6deg);
+      transform: skew(-6deg);
+    }
+    66.6% {
+      -webkit-transform: skew(4deg);
+      transform: skew(4deg);
+    }
+    83.25% {
+      -webkit-transform: skew(-2deg);
+      transform: skew(-2deg);
+    }
+    100% {
+      -webkit-transform: skew(0);
+      transform: skew(0);
+    }
+  }
+  .hvr-wobble-skew {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  .hvr-wobble-skew:hover, .hvr-wobble-skew:focus, .hvr-wobble-skew:active {
+    -webkit-animation-name: hvr-wobble-skew;
+    animation-name: hvr-wobble-skew;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+  }
+  
+  /* Skew Forward */
+  .hvr-skew-forward {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+  }
+  .hvr-skew-forward:hover, .hvr-skew-forward:focus, .hvr-skew-forward:active {
+    -webkit-transform: skew(-10deg);
+    transform: skew(-10deg);
+  }
+  
+  /*---------------------------------------------------------------------------------------*/
+   
+ .greeting{
+         font-family: 'Montserrat', sans-serif;
+         font-style: normal;
+         font-weight: bold;
+         font-size: 36px;
+         line-height: 45px;
+         letter-spacing: -0.05em;
+         text-align: left;
+         padding: 0 0 20px 0;
+         color: #fff;
+       }
+  
+    .aboutme{
+         font-family: 'Montserrat', sans-serif;
+         font-style: normal;
+         font-weight: 300;
+         font-size: 18px;
+         line-height: 28px;
+         color: #000;
+    }
+  
+    button{
+      /*Style for button text*/
+      font-family: 'Helvetica Rounded', 'M PLUS Rounded 1c', sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      color: #fff;
+  
+      /* Appearance of button*/
+      width: 169px;
+      height: 48px;
+      background: rgba(0, 0, 0, 0.86);
+      border-radius: 100px;
+      border: none;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .icons{
+      max-width: 40px;
+      max-height: 40px;
+      opacity: 0.82;
+    }
+  
+ 
+  
+  /*   Mobile  */
+  @media only screen and (min-width: 18.75em) and (max-width: 43.688em){
+  /* min 300pxs */
+  .landing-container{
+  grid-template-areas:
+  ". . . . . . . . . . . ."
+  ". . . . img img img img . . . ."
+  "mn mn mn mn mn mn mn mn mn mn mn mn"
+  ". . . btn btn btn btn btn btn . . ."
+  ". . . . ft ft ft ft . . . .";
+  }
+    main{
+      padding: 0 8% 0 8%;
+    }
+ .aboutme{
+      text-align: justify;
+      letter-spacing: -0.04em;
+      color: rgba(0, 0, 0, 0.86);
+  }
+    button{
+       width: 200px;
+       height: 48px;
+    }
+  }
+  
+  /*   Small Tablet  */
+  @media only screen and (min-width: 43.75em) and (max-width: 63.9375em){
+  /* @media screen and (min-width: 700px)  */
+     
+    #landing-container{
+    grid-auto-rows: 60px, 180px, 136px , 84px, auto;
+    height: 100vh;
+    }
+   
+    main{     
+       margin: 2% 30px 2% 30px; 
+       text-align: justify;
+    }
+    .greeting{
+        font-size: 46px;
+        text-align: center;
+    }
+    .aboutme{
+      text-align: center;
+    }
+    .line-break{
+       display: none;
+    }
+  }
+  
+  /*   Medium Tablet  */
+  @media only screen and (min-width: 64em) and (max-width: 87.4375em){
+  /* @media screen and (min-width: 1024px){  */
+  
+    .greeting{
+      font-size: 46px;
+      text-align: center;
+    }
+    .aboutme{
+      text-align: center;
+    }
+    .line-break{
+      display: none;
+    }
+  }
+  
+  
+  /*   Desktop  Large Screens*/
+  @media only screen and (min-width: 87.5em) {
+  /* min-width 1400px, large screens */
+  
+    .aboutme, .greeting{
+      text-align: center;
+    }
+    .greeting{
+      font-size: 56px;
+    }
+    .line-break{
+      display: none;
+    }
+  }

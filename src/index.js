@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Landing from './sections/App';
+import NavBar from './components/NavBar.js';
+import Landing from './sections/Hero';
 import Skills from './sections/Skills';
 import Projects from './sections/Projects';
 import Education from './sections/Education';
@@ -10,6 +11,7 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
+    <NavBar/>
     <Landing />
     <Skills/>
     <Projects/>
