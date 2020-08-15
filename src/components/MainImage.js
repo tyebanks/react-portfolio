@@ -5,7 +5,7 @@ class MainImage extends Component {
     render() {   
       return (
         <div className="column is-full  mainImage">
-          <figure className="image mt-5 "><img src={myImg} className="myImg is-rounded" alt="Ty Ebanks" /></figure> 
+          <figure id="index" className="image mt-5 "><img src={myImg} className="myImg is-rounded" alt="Ty Ebanks" /></figure> 
         </div>
       );
     }

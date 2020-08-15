@@ -8,7 +8,7 @@ class Skills extends Component {
     return (
         <div className="hero is-light is-bold Skills-Container">
             <div className="columns is-centered mt-6 py-5">
-                <h1 className="has-text-centered title is-1">{heading}</h1>
+                <h1 id="skills" className="has-text-centered title is-1">{heading}</h1>
             </div>                  
             <header className="is-mobile is-table is-desktop">     
             <div className="has-text-centered"><List title="Web Programming, Design & Collaborative Tools"/></div>

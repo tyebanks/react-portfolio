@@ -11,7 +11,7 @@ class Projects extends Component {
         return (
             <div className="hero is-light is-bold Projects-Container">
                <div className="columns is-centered mt-6 py-5">
-                   <h1 className="has-text-centered title is-1">{heading}</h1>
+                   <h1 id="projects" className="has-text-centered title is-1">{heading}</h1>
                </div>
               <div className="columns is-centered">              
                 <Card title="Web Design: 2" subtitle1="Outlandish" subtitle2="GatsbyJS" image={<img src={project1} alt="outlandish-project"/>}/>

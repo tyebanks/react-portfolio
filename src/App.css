@@ -6,7 +6,7 @@
 /* Section 1: Landing Page (Styling Elements)     */
 /* ------------------------------------------------------- */
 body{
-
+  padding-top: 4.0625rem;
 }
 /* 1. Sets Landing Container*/
 .Top-header {
@@ -117,9 +117,7 @@ body{
 border: 1px solid black;
 height: 10vh;
 } */
-body{
-  padding-top: 4.0625rem;
-}
+
 .navbar {
   background-color: #6723C6;
   height: 4.0625rem;

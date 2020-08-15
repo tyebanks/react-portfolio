@@ -9,7 +9,7 @@ class Education extends Component {
  let heading =  "Education";
         return (
             <div className="hero is-light is-bold Education-Container">
-               <div className="columns is-centered mt-6 py-5">
+               <div id="education" className="columns is-centered mt-6 py-5">
                <h1 className="has-text-centered title is-1">{heading}</h1></div>
               <div className="columns is-centered">              
                 <SmallCard img={Uon} alt="uon logo" title="BSc Business Computing (Web Design)" text1="2018 - Present" text2="University of Northampton" text3="Waterside Campus" text4="Northampton, United Kingdom"/>

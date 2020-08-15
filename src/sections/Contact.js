@@ -11,7 +11,7 @@ function Contact() {
          return (
             <div className="columns is-mobile is-centered">
                <div className="column my-3">
-                 <div className="has-text-centered-mobile has-text-centered-touch has-text-centered-widescreen">
+                 <div id="contact" className="has-text-centered-touch has-text-centered-desktop">
                    <h2 className="is-size-1" style={{color: "#B19EFF"}}>{heading}</h2>
                    <h3 className="is-size-3">{text}</h3>
                    <a className="has-text-primary" href={mail+url}>{url}</a>
