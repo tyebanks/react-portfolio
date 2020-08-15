@@ -3,7 +3,7 @@ import React from 'react';
 const List = (props) => {
     return (
         <div>
-           <div className="column px-6">
+           <div className="column">
                
                   <p>{props.text1}</p>
                   <p>{props.text2}</p>
