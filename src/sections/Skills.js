@@ -9,7 +9,7 @@ class Skills extends Component {
     return (
         // // Skills-Container   <-- old classname
         <div className="section hero is-light"> 
-        <div className="container is-fluid">
+        <div className="container">
         <div className= "columns is-centered-mobile has-text-left-touch">
             <div id="skills" className="has-text-centered-mobile title is-size-2-mobile is-size-1-tablet">
                 {heading}
