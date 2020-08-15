@@ -4,19 +4,21 @@ import logo from '../imgs/logo.png';
 class NavBar extends Component {
   render() {   
       return (
-
-        <nav class="navbar is-hidden-tablet is-fixed-top level navbar has-shadow mb-6" role="navigation" aria-label="main navigation">
+        // navbar is-hidden-tablet
+        <nav class=" is-fixed-top level navbar has-shadow mb-6" role="navigation" aria-label="main navigation">
   
         <div class="level-left">
             <div class="level-item">
-                <p class="subtitle is-5"><img src={logo} className="App-logo" alt="logo"/> </p>
+                <p class="subtitle is-5"><img src={logo} className="" alt="logo"/> </p>
             </div>
             <div class="level-right">
                 <p class="level-item">menu</p>
-           
+          
             </div>
         </div>
     </nav>
+
+    /* classname for spinnning logo App-logo/
         /* // <nav class="navbar has-shadow mb-6" role="navigation" aria-label="main navigation">
         //    <div className="columns">
         //    <div className="column is-one-quarter"></div>

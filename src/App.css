@@ -5,7 +5,9 @@
 /* ------------------------------------------------------- */
 /* Section 1: Landing Page (Styling Elements)     */
 /* ------------------------------------------------------- */
+body{
 
+}
 /* 1. Sets Landing Container*/
 .Top-header {
   background: url('./imgs/triangles.png'), linear-gradient(180deg, rgba(0, 239, 181, 0.87) 0%,#6723C6 100%);
@@ -24,10 +26,7 @@
 .Skills-Container {
   min-height: 110vh;
   min-width: 100%;
-  border: 1px solid black;
   padding: 0 0 8%;
-  background: linear-gradient(#5B089B 0%,#e0e5ec 100%);
-  opacity: .80;
 }
 
 
@@ -113,16 +112,16 @@
 }
 .cvButton{
   height: 15vh;
-  /* border: 1px solid red; */
 }
-.socialIcons {
-/* border: 1px solid black; */
+/* .socialIcons {
+border: 1px solid black;
 height: 10vh;
-/* width: 20vw; */
-}
+} */
 .navbar {
   background-color: #6723C6;
   height: 4.0625rem;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 .mainImage{
   display: flex;
