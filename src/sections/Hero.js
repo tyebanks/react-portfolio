@@ -9,7 +9,7 @@ import '../landing.css';
 class Hero extends Component {
     render() {   
       return (
-        <div id="landing-container">
+        <div id="index" className="landing-container">
            <MainImage/>
            <Welcome/>
            <Button/>

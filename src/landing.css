@@ -2,7 +2,7 @@
 
 
  /*Code from https://css-tricks.com/perfect-full-page-background-image/ to fix background to cover entire space*/
- #landing-container{
+ .landing-container{
     background: url(imgs/triangles.png)  center center fixed, linear-gradient(0deg, #6723C6 0%, rgba(0, 239, 181, 0.87) 100%);
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -15,7 +15,7 @@
 }
 
 
-#landing-container{
+.landing-container{
     margin: 0;  padding: 0;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -23,7 +23,7 @@
     grid-template-areas:
     ". . . . . img img . . . . ."
     ". . mn mn mn mn mn mn mn mn . ."
-    ". . . . btn btn btn btn . . . ."
+    ". . . . . btn btn . . . . ."
     ". . . . ft ft ft ft . . . .";
 }
  
@@ -34,7 +34,7 @@
       align-items: center;
       width: 100%;
       width: 200px;
-      height: 200px;
+      height: auto;
 }
 .myImg{ border: 2px solid black; border-radius: 100%; width: 180px; height: 185px;}
 #button{ display: flex; justify-content: center;}
@@ -192,21 +192,26 @@
     }
   
     button{
-      /*Style for button text*/
+     width: 75%;
       font-family: 'Helvetica Rounded', 'M PLUS Rounded 1c', sans-serif;
       font-style: normal;
       font-weight: bold;
-      font-size: 18px;
+    }
+      /*
       color: #fff;
+      text-align: center;
+      display: inline-block; 
+      line-height: 20px;
+      font-size: 10px;
   
-      /* Appearance of button*/
-      width: 169px;
-      height: 48px;
+      Appearance of button
       background: rgba(0, 0, 0, 0.86);
       border-radius: 100px;
       border: none;
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
+      width: 55%;
+      height: 50px;
+    } */
     .icons{
       max-width: 40px;
       max-height: 40px;
@@ -233,19 +238,19 @@
       letter-spacing: -0.04em;
       color: rgba(0, 0, 0, 0.86);
   }
-    button{
+    /* button{
        width: 200px;
-       height: 48px;
-    }
+       height: auto;
+    } */
   }
   
   /*   Small Tablet  */
   @media only screen and (min-width: 43.75em) and (max-width: 63.9375em){
   /* @media screen and (min-width: 700px)  */
      
-    #landing-container{
+    .landing-container{
     grid-auto-rows: 60px, 180px, 136px , 84px, auto;
-    height: 100vh;
+    /* height: 100vh; */
     }
    
     main{     

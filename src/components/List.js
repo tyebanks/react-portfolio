@@ -3,8 +3,7 @@ import React from 'react';
 const List = (props) => {
     return (
         <div>
-           <div className="column">
-               
+           <div className="column">             
                   <p>{props.text1}</p>
                   <p>{props.text2}</p>
                   <p>{props.text3}</p>

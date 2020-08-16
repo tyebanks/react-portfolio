@@ -6,15 +6,18 @@ class NavBar extends Component {
   render() {   
       return (
         // navbar is-hidden-tablet className="navbar  is-fixed-top  level " role="navigation" aria-label="main navigation"
-        <nav>
-                  <div className="level-left">
+        <nav className="navbar  is-fixed-top  level">
+          
+             <a href="#index">Home</a>
+             <a href="#skills">Skills</a>
+             <a href="#projects">Projects</a>
+             <a href="#education">Education</a>
+             <a href="#contact">Contact</a>
+          
                     <div className="level-item">
                         <p className="image is-64x64"><img src={logo} className="" alt="logo"/> </p>
                     </div>
-                    <div className="level-right">
-                        <p className="level-item">menu</p>
-                    </div>
-                </div>
+                    
          </nav>
 
     /* classname for spinnning logo App-logo/
